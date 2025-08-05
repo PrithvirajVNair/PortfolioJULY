@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Michroma&family=Outfit:wght@100..900&family=Smooch+Sans:wght@100..900&display=swap"
+        rel="stylesheet">
+    <!-- Animate Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- navbar -->
+        <nav>
+            <!-- logo -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Superman_shield.svg/640px-Superman_shield.svg.png"
+                alt="No Image" class="animate__animated animate__fadeInLeft logo">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a href="#home" class="links">Home</a></li>
+                <li class="list-items"><a href="#about" class="links">About</a></li>
+                <li class="list-items"><a href="#skill" class="links">Skills</a></li>
+                <li class="list-items"><a href="#contact" class="links">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div class="home-content">
+                <h1 id="username">I'm <span id="name">Prithviraj V Nair</span></h1>
+                <p id="user-details">This is my Portfolio website to showcase my journey and <br> work in photography
+                </p>
+                <a id="download" href="./images/Prithviraj_V_Nair_Resume.pdf" download>VIEW BROCHURE</a>
+            </div>
+            <div class="home-img">
+                <!-- Shape -->
+                <img id="shape" class="group1" src="./images/bg.png" alt="shape">
+                <!-- girl -->
+                <img id="girl" class="group1" src="./images/lady.png" alt="girl">
+            </div>
+        </section>
+        <!-- about -->
+        <section id="about">
+            <div data-aos="fade-up" class="sectionhead">
+                <h2 class="mainHead">About Me</h2>
+                <span class="subHead">Introduction</span>
+            </div>
+            <div class="aboutBody">
+                <div data-aos="fade-right" class="aboutImg">
+                    <img class="img1"
+                        src="https://png.pngtree.com/png-vector/20231207/ourmid/pngtree-3d-render-of-a-cute-kid-boy-with-backpack-png-image_11095093.png"
+                        alt="about me">
+                </div>
+                <div class="aboutContent">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur alias esse quidem,
+                        accusantium saepe eligendi amet perspiciatis optio aliquam odit minus error quia, sed distinctio
+                        illum repellat dolore? Velit, molestias.</p>
+                    <div class="information">
+                        <div class="infoBox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Prithviraj V Nair</span>
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>9496478699</span>
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>prithvirajvnair.pvr@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skills -->
+        <section id="skill">
+            <div data-aos="fade-up" class="sectionhead">
+                <h2 class="mainHead">Skills</h2>
+                <span class="subHead">My Skills</span>
+            </div>
+            <div class="skillContent">
+                <div class="progressBar">
+                    <!-- portrait -->
+                    <div class="bars">
+                        <h3 class="barHead">Portrait</h3>
+                        <span class="barPercent">93%</span>
+                        <div class="baseBar"></div>
+                        <div class="baseBar portBar" data-aos="fade-right" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine"></div>
+                    </div>
+                    <!-- landscape -->
+                    <div class="bars">
+                        <h3 class="barHead">Landscape</h3>
+                        <span class="barPercent">81%</span>
+                        <div class="baseBar"></div>
+                        <div class="baseBar landBar" data-aos="fade-right" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine"></div>
+                    </div>
+                    <!-- editing -->
+                    <div class="bars">
+                        <h3 class="barHead">Editing</h3>
+                        <span class="barPercent">90%</span>
+                        <div class="baseBar"></div>
+                        <div class="baseBar editBar" data-aos="fade-right" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine"></div>
+                    </div>
+                    <!-- Wildlife -->
+                    <div class="bars">
+                        <h3 class="barHead">WildLife</h3>
+                        <span class="barPercent">87%</span>
+                        <div class="baseBar"></div>
+                        <div class="baseBar wildBar" data-aos="fade-right" data-aos-offset="300"
+                            data-aos-easing="ease-in-sine"></div>
+                    </div>
+                </div>
+                <div>
+                    <img class="skillImage"
+                        src="https://media.istockphoto.com/id/637711198/photo/hand-with-marker-writing-skill-concept.jpg?s=612x612&w=0&k=20&c=Dq1KVhcx71mfFq36b8Ieaz-H9IKCdu9YdDSkY_5XfM4="
+                        alt="Skills">
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div data-aos="fade-up" class="sectionhead">
+                <h2 class="mainHead">Contacts</h2>
+                <span class="subHead">My Contacts</span>
+            </div>
+            <div class="iconCollection">
+                <!-- Linkedin -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/prithviraj-v-nair-0b7136227" target="_blank"><i
+                            class="fa-brands fa-linkedin-in brands"></i></a>
+                </div>
+                <!-- Github -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/prithviraj-v-nair-0b7136227" target="_blank"><i
+                            class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!-- twitter -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/prithviraj-v-nair-0b7136227" target="_blank"><i
+                            class="fa-brands fa-x-twitter brands"></i></a>
+                </div>
+                <!-- whatsapp -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/prithviraj-v-nair-0b7136227" target="_blank"><i
+                            class="fa-brands fa-whatsapp brands"></i></i></a>
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/prithviraj-v-nair-0b7136227" target="_blank"><i
+                            class="fa-brands fa-facebook brands"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <p id="copyright">&copy; Prithviraj V Nair Portfolio - August 2025, &reg; All Rights Reserved</p>
+            <div class="icon upArrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
